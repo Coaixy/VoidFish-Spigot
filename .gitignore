@@ -1,0 +1,83 @@
+# Java & Kotlin
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+*.hprof
+*.log
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+.idea/dictionaries/
+.idea/libraries/
+.idea/caches/
+.idea/modules.xml
+.idea/artifacts/
+.idea/compiler.xml
+.idea/encodings.xml
+.idea/inspectionProfiles/
+.idea/shelf/
+.idea/tasks.xml
+.idea/vcs.xml
+.idea/gradle.xml
+.idea/sonarlint/
+.idea/jsLibraryMappings.xml
+.idea/sqlDataSources.xml
+.idea/misc.xml
+.idea/spring.xml
+.idea/uiDesigner.xml
+.idea/codeStyles/
+.idea/databases.xml
+.idea/dynamics.xml
+.idea/runConfigurations/
+.idea/vcs.xml
+
+# Gradle
+.gradle/
+build/
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Others
+*.log
+*.swp
+*.tmp
+*.DS_Store
+*.class
+*.log
+*.pyc
+*.pyo
+*.pyd
+*.ser
+*.swp
+*.swo
+*.bak
+*.orig
+*.rej
+*~
+
+# Logs
+logs/
+*.log
+
+# Kotlin specific
+*.kotlin_module
+
+# IDEA project directory
+/.idea/
+*.iml

@@ -1,0 +1,55 @@
+# \n 换行
+# {roomPlayerCount} - Room Player Count
+# {roomMaxPlayerCount} - Room Max Player
+# {roomState} - Room State
+# {player} - Player Name
+# {roomId} - Room Id
+# Message Prefix
+# {prefix} to use the prefix
+prefix: "§7[§bVoidFish§7]§r"
+
+dieMainTitle: "§cYou're dead."
+
+dieSubTitle: "§cYour fountain of life has run dry."
+
+dieMessage: "{prefix}§c{killer}§r Killed §c{player}§r"
+
+matching: "{prefix}§a Matching..."
+
+matchSuccess: "{prefix}§a Matching Success"
+
+roomInfo: "{prefix}\n§a ID: {roomId}\n§aPlayer: {roomPlayerCount}/{roomMaxPlayerCount}\n§aState: {roomState}"
+
+win: "{prefix}§aCongratulations §c{player}§a for the victory！\n§aID: {roomId}"
+
+winTitle: "§aCongratulations you for the victory!"
+
+winSubTitle: "§aGood Job"
+
+isNotInRoom: "{prefix}§cYou are not in the room"
+
+roomIsFull: "{prefix}§cThe room is full"
+
+leaveRoom: "{prefix}§aLeaving {roomId}"
+
+isInRoom: "{prefix}§cYou are in the room"
+
+newPlayerJoin: "{prefix}§a §c{otherPlayer}§a Join the game \n Player: §a{roomPlayerCount}/{roomMaxPlayerCount}\n§a State: {roomState}"
+
+gameEnd: "{prefix}\n§cYour last game is ending \n §aYour Rank: {rank} \n §aID: {roomId} \n §aWinner: {winner}"
+
+respawnTitle: "{prefix}§aBeing resurrected..."
+
+respawnSubTitle: "{prefix}§aPlease await...{timer}/{maxTimer}"
+
+gameStartTitle: "{prefix}§aGame Starting"
+
+gameStartSubTitle: "{prefix}§aProtect your spring, destroy someone else's."
+
+startCountDownTitle: "{prefix}§aGame Starting Await..."
+
+startCountDownSubTitle: "{prefix}§a{timer} Seconds"
+
+getFishingRod: "{prefix}§aYou got a {RodName}"
+
+rewardRefresh: "{prefix}§aCentral Reward has been refreshed"

@@ -1,0 +1,43 @@
+fishing-rod-name: "§cMagic Rod"
+
+end-game-time: 900
+
+# https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html 查看
+item-blacklist:
+  - BEDROCK
+  - BARRIER
+  - ENDER_DRAGON_SPAWN_EGG
+  - WARDEN_SPAWN_EGG
+  - SHULKER_SPAWN_EGG
+  - WITHER_SKELETON_SPAWN_EGG
+
+# https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/entity/EntityType.html 查看
+entity-blacklist:
+  - ENDER_DRAGON
+  - WITHER
+  - WARDEN
+  - SHULKER
+  - SHULKER_BULLET
+
+reward-item-list:
+  - SPONGE
+  - DIAMOND-PICAXE
+  - DIAMOND-AXE
+  - OBSIDIAN
+  - EMERALD
+  - TNT
+  - FLINT_AND_STEEL
+  - BOW
+  - ARROW
+
+
+entity-probability: 15
+
+platform_distance: 15
+
+respawn-time: 3
+
+wait-space-addition-y: 5
+
+# seconds
+reward-refresh-time: 180
