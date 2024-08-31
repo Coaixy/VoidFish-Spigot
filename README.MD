@@ -5,6 +5,11 @@ A Spigot Plugin Sky Wars where you get any item by fishing
 
 Each player has a bedrock-built platform to fish their way to victory!
 
+## Depend
+Multiverse-Core
+
+PlaceholderAPI (Soft)
+
 ## Permissions
 - `voidfish.game` - Permission to game
 
