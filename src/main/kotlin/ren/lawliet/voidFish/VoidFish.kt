@@ -57,8 +57,8 @@ class VoidFish : JavaPlugin() {
     }
 
     private fun registerCommands() {
-        getCommand("vWorld")?.setExecutor(WorldCommand())
-        getCommand("vGame")?.setExecutor(GameCommand())
+        getCommand("vfWorld")?.setExecutor(WorldCommand())
+        getCommand("vfGame")?.setExecutor(GameCommand())
     }
 
     private fun registerListeners() {

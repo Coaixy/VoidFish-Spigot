@@ -111,7 +111,10 @@ class GameRoom {
             it.gameMode = GameMode.SURVIVAL
             it.scoreboard = Bukkit.getScoreboardManager()?.newScoreboard!!
         }
-        playerPlatFormMap[playerUUID]?.deletePlatform()
+        if (gameState == GameState.Gaming) {
+            playerPlatFormMap[playerUUID]?.deletePlatform()
+            playerDieList.add(playerUUID)
+        }
         playerList.remove(playerUUID)
         playerPlatFormMap.remove(playerUUID)
         playerDieList.remove(playerUUID)

@@ -5,11 +5,11 @@ api-version: '1.20'
 softdepend: [PlaceholderAPI]
 depend: [Multiverse-Core]
 commands:
-  vWorld:
-    usage: /vWorld
+  vfWorld:
+    usage: /vfWorld
     description: World Command
-    aliases: [ vw ]
-  vGame:
-    usage: /vGame
+    aliases: [ vfw ]
+  vfGame:
+    usage: /vfGame
     description: Game Command
-    aliases: [ vg ]
+    aliases: [ vfg ]
